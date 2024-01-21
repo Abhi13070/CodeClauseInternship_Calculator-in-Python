@@ -6,7 +6,7 @@ class Calculator:
         self.root.title("Calculator")
 
         # Set up GUI elements
-        self.root.geometry("400x400")  # Increase window size
+        self.root.geometry("600x600")  # Increase window size
         self.root.configure(bg='#3498db')  # Set background color
 
         self.entry_var = tk.StringVar()
